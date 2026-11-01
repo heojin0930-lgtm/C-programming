@@ -1,0 +1,88 @@
+선택제어문 - 자가진단8 - JUNGOL
+문제은행
+전체 문제 단계별 문제 기출 문제 문제집 제출 현황
+대회 2
+그룹
+랭킹
+커뮤니티
+시스템 테마
+한
+언어: 한국어
+홈   단계별 문제   LC_C++입문
+회원가입  로그인
+선택제어문 - 자가진단8 #19216   1s  5MB
+문제 제출 현황 통계 질문 투표
+문제 제출 현황 통계 질문 투표
+#19216
+선택제어문 - 자가진단8  1s  5MB
+106 67 63
+문제
+0.0 이상 4.5 이하의 평점을 입력받아 그 값에 따라 다음과 같이 출력하는 프로그램을 작성하시오.
+4.0 이상 : scholarship
+3.0 이상 : next semester
+2.0 이상 : seasonal semester
+2.0 미만 : retake
+입력
+첫째 줄에 0.0 이상 4.5 이하의 평점가 주어진다.
+출력
+첫째 줄에 그 값에 따라 다음과 같이 출력하는 4.0 이상 : scholarship 3.0 이상 : next semester 2.0 이상 : seasonal semester 2.0 미만 : retake를 출력한다.
+예제
+입력 3.5
+출력 next semester
+switch((int)score)처럼 실수를 정수로 변환하여 분기한다.
+출처
+자기주도C++프로그래밍
+역링크
+약관개인정보 처리방침오픈소스마스코트
+한컴에듀케이션 경기 안양시 동안구 평촌대로 109 6층 031-360-4144 FAX 031-388-0996 hancomc@hotmail.com © 2010-2026 JUNGOL v8.1.0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+#include <stdio.h>
+int main(void) {
+double score;
+scanf("%lf", &score);
+switch ((int)score) {
+case 4:
+printf("scholarship");
+break;
+case 3:
+printf("next semester");
+break;
+case 2:
+printf("seasonal semester");
+break;
+default:
+printf("retake");
+break;
+}
+return 0;
+}
+Insert (⏎)
+Show More (⌃Space)
+C++20
+제출
+실행      닫기
+실행기를 준비하고 있어요
+선택제어문 - 자가진단8 - JUNGOL

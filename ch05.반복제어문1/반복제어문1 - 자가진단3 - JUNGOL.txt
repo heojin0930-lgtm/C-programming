@@ -1,0 +1,89 @@
+반복제어문1 - 자가진단3 - JUNGOL
+문제은행
+전체 문제 단계별 문제 기출 문제 문제집 제출 현황
+대회 4
+그룹
+랭킹
+커뮤니티
+시스템 테마
+한
+언어: 한국어
+홈   단계별 문제   LC_C++입문
+회원가입  로그인
+반복제어문1 - 자가진단3 #19230   1s  5MB
+문제
+문제 제출 현황 통계 질문 투표
+#19230
+반복제어문1 - 자가진단3  1s  5MB
+141 79 73
+문제
+한 개의 정수를 입력받아 양수(positive number)인지 음수(negative number)인지 출력하는 작업을 반복하다가 0이 입력되면 종료하는 프로그램을 작성하시오.
+입력
+정수가 순서대로 주어진다. 0이 입력되면 입력이 종료된다.
+출력
+첫째 줄부터 2개의 줄에 걸쳐 양수(positive number)인지 음수(negative number)인지 출력하는 작업을 반복하다가 0이 입력되면 종료하는를 순서대로 출력한다.
+예제
+입력 10
+-10
+0
+출력 positive number
+negative number
+출처
+자기주도C++프로그래밍
+역링크
+공식 문제집 일반 문제집
+LC_C++입문#19121  Ch.05 반복제어문1
+약관개인정보 처리방침오픈소스마스코트
+한컴에듀케이션 경기 안양시 동안구 평촌대로 109 6층 031-360-4144 FAX 031-388-0996 hancomc@hotmail.com © 2010-2026 JUNGOL v8.1.0
+1
+2
+3
+4
+6
+7
+8
+9
+10
+11
+12
+13
+5
+14
+15
+16
+17
+18
+19
+#include <stdio.h>
+int main(void){
+int a;
+for(;;){
+scanf("%d",&a);
+if(a==0){
+break;
+}
+else if(a>0){
+printf("Positive number\n");
+}
+else{
+printf("Negative number\n");
+}
+}
+return 0;
+};
+Insert (⏎)
+Show More (⌃Space)
+C++20
+제출
+실행  다시 실행      닫기
+dddddddddddddddddddddddddddddddd
+-9
+Negative nu
+mber
+0
+Process fin
+Positive number
+Positive number
+Negative number
+Process finished after 0ms[?25l
+문제 - JUNGOL
